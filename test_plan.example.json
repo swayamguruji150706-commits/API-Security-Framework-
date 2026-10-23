@@ -1,0 +1,12 @@
+{
+  "description": "Example only. Replace with relative paths and synthetic object IDs from your authorized staging API.",
+  "tests": [
+    {
+      "id": "read-object-001",
+      "path": "api/v1/test-objects/OBJECT_ID_OWNED_BY_USER_A",
+      "method": "GET",
+      "owner_identity": "user_a",
+      "other_identity": "user_b"
+    }
+  ]
+}
